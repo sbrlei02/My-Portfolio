@@ -156,7 +156,21 @@ h2 {
     background-color: #B22222;
     color: white;
     transform: scale(1.05);
+
 }
+
+#works {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    height: 100vh;          
+    overflow-y: auto;       
+    justify-content: flex-start; 
+}
+
+
 </style>
 </head>
 <body>
@@ -183,18 +197,23 @@ h2 {
         <h3>History of the Computer</h3>
         <p>Published: 2025-08-23</p>
         <a href="https://sbrlei02.github.io/History-of-Computers/" target="_blank">Visit Project</a>
+    </div>
 
-     <div class="project">
+    <div class="project">
         <h3>SafeTalk</h3>
         <p>Published: 2025-08-24</p>
         <a href="https://sbrlei02.github.io/SafeTalka" target="_blank">Visit Project</a>
+    </div>
 
     <div class="project">
         <h3>Fortune</h3>
         <p>Published: 2025-08-28</p>
-        <a href=" https://sbrlei02.github.io/Fortune/" target="_blank">Visit Project</a>
-
+        <a href="https://sbrlei02.github.io/Fortune/" target="_blank">Visit Project</a>
     </div>
+
+    <button class="back-btn" onclick="backToIntro()">Back to Intro</button>
+</div>
+
 
     <button class="back-btn" onclick="backToIntro()">Back to Intro</button>
 </div>
